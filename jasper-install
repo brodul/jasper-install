@@ -157,7 +157,7 @@ install_jasper() {
   # install jasper and it's rewquirements
   cd ${PREFIX}/lib
   if [ ! -d jasper ]; then
-    git clone https://github.com/jasperproject/jasper-client.git jasper
+    git clone https://github.com/brodul/jasper-client.git jasper
   fi
   pip install --upgrade setuptools
   pip install -r jasper/client/requirements.txt
